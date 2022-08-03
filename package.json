@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.6.3",
+    "typescript": "^4.7.4"
+  },
+  "name": "nooode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix --cache",
+    "build" :"tsc",
+    "test":"jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roberta2017/NOOOde.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roberta2017/NOOOde/issues"
+  },
+  "homepage": "https://github.com/Roberta2017/NOOOde#readme",
+  "description": ""
+}
