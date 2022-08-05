@@ -2,15 +2,19 @@
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
     "@types/node": "^18.6.3",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
     "typescript": "^4.7.4"
   },
   "name": "nooode",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --fix --cache",
-    "build" :"tsc",
-    "test":"jest"
+    "lint": "eslint src/ --cache --fix",
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
